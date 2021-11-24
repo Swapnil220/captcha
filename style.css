@@ -1,0 +1,25 @@
+@font-face{
+    font-family: captcha1;
+    src: url('fonts/1.ttf');
+}
+
+@font-face{
+    font-family: captcha2;
+    src: url('fonts/2.TTF');
+}
+
+@font-face{
+    font-family: captcha3;
+    src: url('fonts/3.ttf');
+}
+
+*{
+  padding:0;
+  margin: 0;
+}
+
+#canvas{
+    flex: 1;
+    height: 150px;
+    width: 300px;
+}
